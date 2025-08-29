@@ -5,6 +5,7 @@
     
     
 }
+
 @media screen and (max-width:410px){
     .navbar button{
         display: none;
@@ -70,7 +71,8 @@
 }
 @media screen and (max-width:446px){
     .second{
-        padding: 60px 0px 10px 30px !important;
+        /* padding: 60px 0px 10px 30px !important; */
+        padding: 50px !important;
     }
     .second>.list1{
         gap: 20px !important;
@@ -80,16 +82,16 @@
         
     }
     .second .list1 .heads1 h1{
-        font-size: 24px !important;
+        font-size: 20px !important;
         max-width: 280px !important;
     }
     .second>.list1> .heads1{
-        gap: 16px !important;
+        gap: 20px !important;
     }
     
     .second>.list1>.heads1>p {
         font-size: 14px !important;
-        max-width: 200px !important;
+        max-width: 300px !important;
         line-height: 20px !important;
     }
     .herobuttons{
@@ -114,7 +116,8 @@
         display: flex !important;
         flex-direction: column !important;
         /* background-color: rgb(47, 192, 161); */
-        padding-top: 10% !important;
+        /* padding-top: 10% !important; */
+        padding: 40px !important;
         justify-content: center !important;
    }
     .third .heading1{
@@ -211,16 +214,20 @@
 }
 @media screen and (max-width:446px){
     .third>.heading1>h2{
-        font-size: 26px !important;
+        font-size: 20px !important;
     }
     .third>.heading1>.para4>h5{
-        font-size: 20px !important;
+        font-size: 18px !important;
+
     }
     .third>.heading1>.para4>p{
         font-size: 14px !important;
     }
     .third>.pics>.container>.content1>.imag1>img{
         max-width: 270px !important;
+    }
+    .third>.pics>.container{
+        gap: 50px !important;
     }
     .third>.pics>.container>.content1>.show1>h6{
         font-size: 18px !important;
@@ -230,6 +237,7 @@
     }
     .third>.pics>.container>.content1>.show1{
         max-width: 270px !important;
+        gap: 20px !important;
     }
     .third>.pics>.container>.content2>.imag2>img{
         max-width: 270px !important;
@@ -266,7 +274,7 @@
 }
 @media screen and (max-width:637px){
     .forth > .blok{
-        padding-left: 18px;
+        /* padding-left: 18px; */
     }
     
     .forth > .blok >.iner-b> .high > p{
@@ -284,7 +292,8 @@
 }
 @media screen and (max-width:446px){
     .forth{
-        padding: 10px 5% !important;
+        /* padding: 10px 5% !important; */
+        padding: 50px !important;
     }
     .forth > .blok >.iner-b{
         display: flex;
@@ -305,13 +314,16 @@
         padding: 16px 12px !important;
     }
     .forth > .blok2 >.image1{
-        max-width: 290px !important;
+        max-width: 240px !important;
     }
 }
 
 
 
 @media (max-width: 969px) {
+    .fifth{
+        padding: 50px !important;
+    }
   .fifth>.firsthead {
     /* flex-direction: column; */
     align-items: flex-start;
@@ -373,11 +385,11 @@
 
 @media (max-width: 480px) {
   .fifth {
-    padding: 65px 30px !important;
-    gap: 40px;
+    /* padding: 65px 30px !important; */
+    gap: 20px;
   }
   .fifth>.firsthead>.effective>h1 {
-    font-size: 26px !important;
+    font-size: 24px !important;
   }
   .fifth>.firsthead>.another>h4 {
     font-size: 20px !important;
@@ -387,6 +399,9 @@
   .fifth .piccontent2 p,
   .fifth .piccontent3 p {
     font-size: 16px !important;
+  }
+  .fift .secondhead{
+    gap: 20px !important;
   }
 }
 
@@ -398,7 +413,8 @@
     .sixth{
         flex-direction: column !important;
         gap:60px !important;
-        padding:0 3% 50px 3% !important;
+        /* padding:0 3% 50px 3% !important; */
+        padding: 50px !important;
     }
     .sixth>.joinimage{
         width:100% !important;
@@ -406,7 +422,7 @@
         justify-content:center !important;
     }
     .sixth>.joinimage>.imge{
-        max-width:500px !important;
+        max-width:240px !important;
     }
     .sixth>.jm-content{
         max-width:100% !important;
@@ -432,7 +448,7 @@
 @media (max-width:768px){
     .sixth{
         gap:40px !important;
-        padding:0 5% 40px 5% !important;
+        /* padding:0 5% 40px 5% !important; */
     }
     .sixth>.jm-content>.contentfirst>h1{
         font-size:26px !important;
@@ -453,7 +469,7 @@
 
 @media (max-width:480px){
     .sixth>.jm-content>.contentfirst>h1{
-        font-size:26px !important;
+        font-size:22px !important;
     }
     .sixth>.jm-content>.contentfirst{
         text-align: left;
@@ -478,9 +494,13 @@
 
 
 @media (max-width: 969px){
+    .seventh{
+        padding: 50px !important;
+    }
     .pricing-boxes{
         display: flex;
         flex-wrap: wrap;
+        gap: 20px !important;
     }
 
 }
@@ -491,7 +511,14 @@
     }
     .pricing-boxes .box{
         max-width: 300px !important;
-        padding: 18px 20px !important;
+        padding: 16px 16px !important;
+        /* text-align: left !important; */
+    }
+    .pricing-boxes .box ul li{
+        text-align: left;
+    }
+    .pricing-boxes{
+        gap: 30px !important;
     }
 }
 @media (max-width:480px){
@@ -502,7 +529,7 @@
 
     .pricing-boxes .box{
         max-width: 300px !important;
-        padding: 9px 16px !important;
+        /* padding: 9px 16px !important; */
     }
 
     .pricing-boxes .box button{
@@ -519,7 +546,8 @@
     flex-direction: column;
     max-width: 1100px !important;
     gap:50px !important;
-    padding:50px 5% !important;
+    padding: 50px !important;
+    /* padding:50px 5% !important; */
   }
   .eight .square1{
     align-items:center !important;
@@ -575,8 +603,11 @@
 
 @media (max-width:480px){
   .eight{
-    padding:40px 5% !important;
+    /* padding:40px 5% !important; */
     gap:40px !important;
+  }
+  .eight .square1{
+    gap: 20px !important;
   }
   .eight .square1 .cont h1{
     font-size:28px !important;
@@ -620,6 +651,9 @@
 
 
 @media (max-width: 992px) {
+    .nineth{
+        padding: 50px !important;
+    }
   .nineth .head-first{
         max-width: 910px !important;
     }
@@ -653,14 +687,14 @@
 
     .nineth .head-second{
         max-width: 400px !important;
-        padding: 50px 2px 50px 2px !important;
+        /* padding: 50px 2px 50px 2px !important; */
     }
 }
 
 @media (max-width: 576px) {
   .nineth {
-    padding: 40px 20px !important;
-    gap: 40px !important;
+    /* padding: 40px 20px !important; */
+    /* gap: 40px !important; */
   }
 
 
@@ -696,9 +730,11 @@
     .nineth .head-first{
         /* text-align: left !important; */
         align-items: flex-start;
+        gap: 30px !important;
     }
     .nineth .head-first h1{
-        font-size: 28px !important;
+        font-size: 26px !important;
+        text-align: left !important;
     }
     .nineth .head-first .bf-bold{
         padding-left: 8px;
@@ -715,8 +751,9 @@
   }
 
   .nineth .head-second{
-        max-width: 400px !important;
-        padding: 30px 2px 30px 2px !important;
+        /* max-width: 400px !important; */
+        /* padding: 30px 2px 30px 2px !important; */
+        gap: 30px !important;
     }
 }
 
@@ -731,6 +768,7 @@
         display: flex;
         flex-direction: column;
         gap: 80px !important;
+        padding: 50px !important;
     }
     .tenth .box1{
         display: flex !important;
@@ -768,7 +806,8 @@ input[type="email"]{
 
 @media (max-width: 962px){
     .last{
-        padding: 80px 3% 12px 3%;
+        /* padding: 80px 3% 12px 3%; */
+        padding: 50px !important;
     }
     .last .straight{
         gap: 35px;
@@ -788,14 +827,14 @@ input[type="email"]{
     }
 
     .last .straight .row1{
-        max-width: 400px !important;
+        max-width: 100px !important;
         align-items: center !important;
         justify-content: center !important;
     }
     .last .straight{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center !important;
+        /* justify-content: center !important; */
         /* max-width: 100px !important; */
     }
     
@@ -803,16 +842,18 @@ input[type="email"]{
 
 @media (max-width: 445px){
     .last{
-        padding-top: 50px !important;
+        /* padding-top: 50px !important; */
     }
     .last .straight .row1{
-        max-width: 300px !important;
+        max-width: 200px !important;
     }
     .last .straight .row2{
         gap: 20px !important;
+        display: none !important;
     }
     .last .straight .row3{
         gap: 20px !important;
+        display: none !important;
     }
     .last .straight .row4{
         gap: 20px !important;
