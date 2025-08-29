@@ -50,7 +50,7 @@
 
 @media screen and (max-width:638px){
     .second{
-        padding: 50px 0px 0px 12% !important;
+        /* padding: 50px 0px 0px 12% !important; */
         display: flex;
         background-repeat: no-repeat;
         background-size: contain;
@@ -74,7 +74,7 @@
 @media screen and (max-width:446px){
     .second{
         /* padding: 60px 0px 10px 30px !important; */
-        padding: 50px 30px !important;
+        padding: 30px 30px !important;
     }
     .second>.list1{
         gap: 20px !important;
@@ -85,7 +85,7 @@
     }
     .second .list1 .heads1 h1{
         font-size: 20px !important;
-        max-width: 280px !important;
+        max-width: 240px !important;
     }
     .second>.list1> .heads1{
         gap: 20px !important;
@@ -93,12 +93,12 @@
     
     .second>.list1>.heads1>p {
         font-size: 14px !important;
-        max-width: 300px !important;
+        max-width: 240px !important;
         line-height: 20px !important;
     }
     .herobuttons{
-        gap: 18px !important;
-        margin-top: 18px !important;
+        gap: 20px !important;
+        margin-top: 0px !important;
     }
     .herobuttons>button{
         height: 43px !important;
@@ -133,12 +133,12 @@
     .third .pics .container{
         display: flex;
         flex-wrap: wrap !important; 
-        gap: 30px !important;
+        gap: 20px !important;
     }
     .third .pics .container .content1 {
     flex-direction: row !important;   
     align-items: center !important;   
-    gap: 30px !important;     
+    gap: 20px !important;     
     justify-content: center !important;        
   }
 
@@ -154,7 +154,7 @@
   .third .pics .container .content2 {
     flex-direction: row !important;   
     align-items: center !important;   
-    gap: 33px !important; 
+    gap: 20px !important; 
     justify-content: center !important;            
   }
   .third .pics .container .content2 .imag2 img {
@@ -170,7 +170,7 @@
   .third .pics .container .content3 {
     flex-direction: row !important;   
     align-items: center !important;   
-    gap: 33px !important;   
+    gap: 20px !important;   
     justify-content: center !important;          
   }
   .third .pics .container .content3 .imag3 img {
@@ -215,8 +215,12 @@
     }
 }
 @media screen and (max-width:446px){
+    .third{
+        gap: 20px !important;
+    }
     .third>.heading1>h2{
-        font-size: 20px !important;
+        font-size: 25px !important;
+        margin-right: 0;
     }
     .third>.heading1>.para4>h5{
         font-size: 18px !important;
@@ -225,11 +229,17 @@
     .third>.heading1>.para4>p{
         font-size: 14px !important;
     }
+    .third>.pics{
+        padding-bottom: 0 !important;
+    }
+    .third>.pics>.container>.content1{
+        margin-top: 0;
+    }
     .third>.pics>.container>.content1>.imag1>img{
         max-width: 270px !important;
     }
     .third>.pics>.container{
-        gap: 50px !important;
+        gap: 28px !important;
     }
     .third>.pics>.container>.content1>.show1>h6{
         font-size: 18px !important;
@@ -252,6 +262,7 @@
     }
     .third>.pics>.container>.content2>.show2{
         max-width: 270px !important;
+        gap: 20px !important;
     }
     .third>.pics>.container>.content3>.imag3>img{
         max-width: 270px !important;
@@ -264,6 +275,7 @@
     }
     .third>.pics>.container>.content3>.show3{
         max-width: 270px !important;
+        gap: 20px !important;
     }
     
 }
@@ -296,10 +308,16 @@
     .forth{
         /* padding: 10px 5% !important; */
         padding: 50px 30px !important;
+        /* background-color: blueq; */
+        gap: 20px !important;
+    }
+    .forth > .blok{
+        gap: 20px !important;
     }
     .forth > .blok >.iner-b{
         display: flex;
         flex-direction: column;
+        gap: 20px !important;
     }
     .forth > .blok >.iner-b> .afford{
         font-size: 14px !important;
@@ -325,11 +343,12 @@
 @media (max-width: 969px) {
     .fifth{
         padding: 50px 30px!important;
+        gap: 50px !important;
     }
   .fifth>.firsthead {
     /* flex-direction: column; */
     align-items: flex-start;
-    gap: 24px;
+    gap: 20px;
   }
   .fifth>.firsthead>.effective>h1 {
     font-size: 22px !important;
@@ -388,7 +407,10 @@
 @media (max-width: 480px) {
   .fifth {
     /* padding: 65px 30px !important; */
-    gap: 20px;
+    gap: 40px !important;
+  }
+  .fifth>.firsthead{
+    gap: 20px !important;
   }
   .fifth>.firsthead>.effective>h1 {
     font-size: 24px !important;
@@ -449,8 +471,11 @@
 
 @media (max-width:768px){
     .sixth{
-        gap:40px !important;
+        gap:20px !important;
         /* padding:0 5% 40px 5% !important; */
+        padding-top: 0 !important;
+
+        padding-bottom: 05 !important;
     }
     .sixth>.jm-content>.contentfirst>h1{
         font-size:26px !important;
@@ -548,7 +573,7 @@
     flex-direction: column;
     max-width: 1100px !important;
     gap:50px !important;
-    padding: 50px 30px !important;
+    padding: 30px 30px !important;
     /* padding:50px 5% !important; */
   }
   .eight .square1{
@@ -606,7 +631,7 @@
 @media (max-width:480px){
   .eight{
     /* padding:40px 5% !important; */
-    gap:40px !important;
+    gap:30px !important;
   }
   .eight .square1{
     gap: 20px !important;
@@ -654,7 +679,7 @@
 
 @media (max-width: 992px) {
     .nineth{
-        padding: 50px 30px !important;
+        padding: 30px 30px !important;
     }
   .nineth .head-first{
         max-width: 910px !important;
