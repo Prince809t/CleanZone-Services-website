@@ -8,10 +8,15 @@
     
 }
 
-@media screen and (max-width:410px){
+@media screen and (max-width:420px){
     .navbar button{
         display: none;
     }
+    .navbar .list  i{
+    display: block !important;
+    font-size: 33px;
+}
+    
 }
 @media screen and (max-width:768px){
     .second{
@@ -252,6 +257,10 @@
         max-width: 270px !important;
         gap: 20px !important;
     }
+    .third>.pics>.container>.content1>.show1>.butn1{
+    padding: 12px  !important;   
+    border-radius: 6px;
+}
     .third>.pics>.container>.content2>.imag2>img{
         max-width: 270px !important;
     }
@@ -265,6 +274,10 @@
         max-width: 270px !important;
         gap: 20px !important;
     }
+    .third>.pics>.container>.content2>.show2>.butn2{
+    padding: 12px  !important;   
+    border-radius: 6px;
+}
     .third>.pics>.container>.content3>.imag3>img{
         max-width: 270px !important;
     }
@@ -278,6 +291,10 @@
         max-width: 270px !important;
         gap: 20px !important;
     }
+    .third>.pics>.container>.content3>.show3>.butn3{
+    padding: 12px  !important;   
+    border-radius: 6px;
+}
     
 }
 @media screen and (max-width:969px){
@@ -332,7 +349,7 @@
     }
     .forth > .blok > .thirdbutton > .get{
         max-width: 140px !important;
-        padding: 16px 12px !important;
+        padding: 12px 10px !important;
     }
     .forth > .blok2 >.image1{
         max-width: 240px !important;
@@ -509,11 +526,14 @@
 
     .sixth>.jm-content>.contentfirst>.contentsecond{
         gap: 20px !important;
+        align-items: flex-start !important;
+        flex-wrap: wrap !important;
     }
     .sixth>.jm-content>.contentfirst>.contentsecond>.content1,
     .sixth>.jm-content>.contentfirst>.contentsecond>.content2{
         flex-direction:column !important;
         gap:20px !important;
+        /* width: 150px; */
     }
     .sixth>.jm-content>.contentsecond{
         text-align: left;
@@ -569,94 +589,104 @@
 
 
 
-@media (max-width:1024px){
-  .eight{
-    flex-direction: column;
-    max-width: 1100px !important;
-    gap:50px !important;
+/* Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+    .eight .square2 .img-con .conten2 .right-im{
+        display: none !important;
+    }
+    .eight .square2 .img-con .conten{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+  .eight {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 50px 20px !important;
+    gap: 30px !important;
+  }
+
+  .eight .square1 {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .eight .square1 .cont h1 {
+    font-size: 32px !important;
+  }
+
+  .eight .square1 .cont p {
+    max-width: 100% !important;
+    font-size: 14px !important;
+  }
+
+  .eight .square2 {
+    max-width: 100% !important;
+    height: auto !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 20px !important;
+  }
+
+  .eight .square2 .carousel-item.active {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .eight .square2 .image-l {
+    width: 100px !important;
+    height: 120px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .eight .square2 .img-con {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .eight .square2 .img-con .conten p,
+  .eight .square2 .img-con .conten .pr {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+
+/* Mobiles (max-width: 576px) */
+@media (max-width: 576px) {
+  .eight {
     padding: 30px 30px !important;
-    /* padding:50px 5% !important; */
-  }
-  .eight .square1{
-    align-items:center !important;
-    text-align:center !important;
-    max-width: 550px !important;
-  }
-  .eight .square1 .cont h1{
-    font-size:30px !important;
-  }
-  .eight .square1 .cont p{
-    max-width:100% !important;
-    font-size:14px !important;
-  }
-  .eight .square1 .button{
-    justify-content:center !important;
-  }
-  .eight .square2{
-    flex-direction:column !important;
-    align-items:center !important;
-    text-align:center !important;
-  }
-  .eight .square2 .image-l{
-    max-width:240px !important;
-  }
-  .eight .square2 .img-con{
-    align-items:center !important;
-    justify-content:center !important;
-  }
-  .eight .square2 .img-con .conten2 .right-im{
-    display: none;
-  }
-  .eight .square2 .img-con .conten{
-    align-items:center !important;
-    text-align:center !important;
-  }
-  .eight .square2 .img-con .conten .pr{
-    font-size:14px !important;
-    line-height:22px !important;
-  }
-}
-
-@media (max-width:768px){
-  .eight .square1 .cont h1{
-    font-size:26px !important;
-  }
-  .eight .square2 .img-con .conten h6{
-    font-size:18px !important;
-  }
-  .eight .square2 .img-con .conten .pr{
-    font-size:13px !important;
-  }
-}
-
-@media (max-width:480px){
-  .eight{
-    /* padding:40px 5% !important; */
-    gap:30px !important;
-  }
-  .eight .square1{
     gap: 20px !important;
   }
-  .eight .square1 .cont h1{
-    font-size:28px !important;
+
+  .eight .square1 .cont h1 {
+    font-size: 24px !important;
   }
-  .eight .square1 .cont p{
-    font-size:16px !important;
+
+  .eight .square1 .cont p {
+    font-size: 12px !important;
+    line-height: 18px !important;
   }
-  .eight .square1 .button{
-    max-width: 110px !important;
+
+  .eight .square2 {
+    padding: 15px !important;
   }
-  .eight .square2 .image-l{
-    max-width:180px !important;
+
+  .eight .square2 .image-l {
+    width: 80px !important;
+    height: 100px !important;
   }
-  .eight .square2 .img-con .conten h6{
-    font-size:23px !important;
+
+  .eight .square2 .img-con .conten h6 {
+    font-size: 16px !important;
   }
-  .eight .square2 .img-con .conten .pr{
-    font-size:16px !important;
-    line-height:20px !important;
+
+  .eight .square2 .img-con .conten p,
+  .eight .square2 .img-con .conten .pr {
+    font-size: 12px !important;
+    line-height: 18px !important;
   }
 }
+
 /* @media (max-width:1024px){
     .nineth .head-first{
         max-width: 910px !important;
@@ -864,6 +894,10 @@ input[type="email"]{
         flex-wrap: wrap;
         /* justify-content: center !important; */
         /* max-width: 100px !important; */
+    }
+    .last .straight .row4 .last-button{
+        max-width: 120px !important;
+        height: 52px !important;
     }
     
 }
